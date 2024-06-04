@@ -1,0 +1,182 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+    
+  }
+  
+  /* Global Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .head{
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url('https://png.pngtree.com/background/20231030/original/pngtree-illustration-of-3d-rendered-laptop-computer-showcasing-the-concept-of-e-picture-image_5792554.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #cc5500;
+  }
+  
+  /* Feature Section Styles */
+  #features {
+    background-color: #1f1f1f;
+    padding: 100px 0;
+    
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: beige;
+  }
+  
+  .feature img {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  /* Pricing Section Styles */
+  #pricing {
+    padding: 100px 0;
+    background-color: #333;
+  }
+  
+  .price-card {
+    background-image: url("https://i.pinimg.com/736x/ec/02/6a/ec026ad2b33d92ae158a06d890235df0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+  }
+  
+  .price-card h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .price-card p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .price-card ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .price-card ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: beige;
+    color: #000000;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  footer form input, footer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  footer form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer form button:hover {
+    background-color: #cc5500;
+  }
+  
